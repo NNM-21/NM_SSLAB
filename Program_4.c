@@ -8,7 +8,7 @@ int main(void)
 {
     int fd1,fd5;
     fd1 = open("MyFiles",O_RDWR );
-    fd1 = open("MyFile",O_EXCL );
+    fd5 = open("MyFile",O_EXCL );
     printf("fd1=%d\n",fd1);
     printf("fd5=%d\n",fd5);
     return 0;
