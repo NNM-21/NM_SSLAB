@@ -13,7 +13,13 @@ int main(void)
     fd4=open("MyFiles",O_RDWR );
     fd5=open("MyFiles",O_RDWR );
 
-    printf("fd=%d\n",fd);
+    printf("fd1=%d\n",fd1);
+    printf("fd2=%d\n",fd2);
+    printf("fd3=%d\n",fd3);
+    printf("fd4=%d\n",fd4);
+    printf("fd5=%d\n",fd5);
+
+    for(;;);
    
     return 0;
 }
